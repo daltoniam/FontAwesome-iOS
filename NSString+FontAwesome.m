@@ -38,7 +38,7 @@
         offset += 1;
     if(index > 149)
         offset += 1;
-    if(index > 155)
+    if(index > 164)
         offset += 1;
     if(index > 167)
         offset += 12;
@@ -49,6 +49,16 @@
     if(index > 212)
         offset += 1;
     if(index > 242)
+        offset += 1;
+    if(index > 257)
+        offset += 1;
+    if(index > 272)
+        offset += 1;
+    if(index > 302)
+        offset += 1;
+    if(index > 317)
+        offset += 1;
+    if(index > 332)
         offset += 1;
     return offset;
 }
