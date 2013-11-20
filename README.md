@@ -11,18 +11,18 @@ Requires at least iOS 5/OSX 10.7 or above. Also required is: https://github.com/
 How to add a custom font to iOS app:
 
 1. Download the [FontAwesome](https://github.com/FortAwesome/Font-Awesome) font.
-2. Add that font files into your project using Xcode as a resource
+2. Add that font files into your project using Xcode as a resource. Make sure it is part of the "Copy Bundle Resources" in the Build Phases.
 3. Add a key to your Info.plist file called UIAppFonts. (Friendly name is: Fonts provided by application)
-4. Make this key an array
-5. For each font you have, enter the full name of your font file (including the extension) as items to the UIAppFonts array
-6. Save Info.plist
-7. Now in your application you can simply call [UIFont fontWithName:@"CustomFontName" size:12] to get the custom font to use with your UILabels and UITextViews, etc…
+4. Make sure this key an array.
+5. Enter the full name of your font file (including the extension) as an item to the UIAppFonts array. (Usually fontawesome-webfont.ttf)
+6. Save your Info.plist.
+7. Now in your application you can simply call [UIFont fontWithName:@"FontAwesome" size:12] to get the custom font to use with your UILabels and UITextViews, etc…
 
 Also see this:
 
 http://codewithchris.com/common-mistakes-with-adding-custom-fonts-to-your-ios-app/
 
-If you are still lost.
+If you get lost.
 
 # install #
 
