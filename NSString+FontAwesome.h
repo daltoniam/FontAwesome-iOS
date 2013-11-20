@@ -345,7 +345,7 @@ typedef enum {
     AwesomeIconXingSign,
     AwesomeIconYoutubePlay,
     AwesomeIconDropBox,
-    AwesomeIconStackExchange,
+    AwesomeIconStackoverflow,
     AwesomeIconInstagram,
     AwesomeIconFlickr,
     AwesomeIconAdn,
@@ -375,6 +375,16 @@ typedef enum {
     AwesomeIconVk,
     AwesomeIconWeibo,
     AwesomeIconRenren,
+    AwesomeIconPagelines,
+    AwesomeIconStackExchange,
+    AwesomeIconArrowCircleORight,
+    AwesomeIconArrowCircleOLeft,
+    AwesomeIconCaretSquareOLeft,
+    AwesomeIconDotCircleO,
+    AwesomeIconWheelChair,
+    AwesomeIconVimeoSquare,
+    AwesomeIconTry,
+    AwesomeIconPlusSquareO,
 } AwesomeIcon;
 
 
