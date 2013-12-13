@@ -27,9 +27,9 @@ If you get lost.
 # example
 
 ```objc
-		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 44)];
-    label.font = [UIFont fontWithName:@"FontAwesome" size:20];
-    label.text =  [NSString awesomeIcon:FaTwitter];
+UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 44)];
+label.font = [UIFont fontWithName:@"FontAwesome" size:20];
+label.text =  [NSString awesomeIcon:FaTwitter];
 ```
 
 # install #
@@ -64,8 +64,8 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 * The Font Awesome font is licensed under the [SIL Open Font License](http://scripts.sil.org/OFL)
 * Font Awesome CSS, LESS, and SASS files are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
 * The Font Awesome pictograms are licensed under the [CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0)
-* Attribution is no longer required in Font Awesome 3.0, but much appreciated:
-	* *"Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"*
+* Attribution is no longer required in Font Awesome 4.0, but much appreciated:
+* *"Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"*
 
 # Contact #
 
