@@ -66,7 +66,7 @@
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //start with the first character and jump to the next ones
-+(NSString*)awesomeIcon:(AwesomeIcon)index
++(NSString*)awesomeIcon:(FaIcon)index
 {
     char value[4] = "\uf000";
     int offset = [self jumpCaculate:index];

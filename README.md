@@ -6,7 +6,7 @@ FontAwesome-iOS takes the amazing font awesome (see that here: [FontAwesome](htt
 
 Requires that you embed and use the Font Awesome font in your app.
 
-Requires at least iOS 5/OSX 10.7 or above. Also required is: https://github.com/daltoniam/FontAwesome-iOS. 
+Requires at least iOS 5/OSX 10.7 or above. Also required is: https://github.com/daltoniam/FontAwesome-iOS.
 
 How to add a custom font to iOS app:
 
@@ -24,6 +24,14 @@ http://codewithchris.com/common-mistakes-with-adding-custom-fonts-to-your-ios-ap
 
 If you get lost.
 
+# example
+
+```objc
+		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 44)];
+    label.font = [UIFont fontWithName:@"FontAwesome" size:20];
+    label.text =  [NSString awesomeIcon:FaTwitter];
+```
+
 # install #
 
 The recommended approach for installing FontAwesome-iOS is via the CocoaPods package manager, as it provides flexible dependency management and dead simple installation.
@@ -39,14 +47,14 @@ Change to the directory of your Xcode project, and Create and Edit your Podfile 
 	$ cd /path/to/MyProject
 	$ touch Podfile
 	$ edit Podfile
-	platform :ios, '5.0' 
+	platform :ios, '5.0'
 	# Or platform :osx, '10.7'
 	pod 'FontAwesome-iOS'
 
 Install into your project:
 
 	$ pod install
-	
+
 Open your project in Xcode from the .xcworkspace file (not the usual project file)
 
 # License #
