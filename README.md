@@ -27,9 +27,9 @@ If you get lost.
 # example
 
 ```objc
-		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 44)];
-    label.font = [UIFont fontWithName:@"FontAwesome" size:20];
-    label.text =  [NSString awesomeIcon:FaTwitter];
+UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 100, 44)];
+label.font = [UIFont fontWithName:@"FontAwesome" size:20];
+label.text =  [NSString awesomeIcon:FaTwitter];
 ```
 
 # install #
@@ -42,7 +42,7 @@ Install CocoaPods if not already available:
 
 	$ [sudo] gem install cocoapods
 	$ pod setup
-Change to the directory of your Xcode project, and Create and Edit your Podfile and add RestKit:
+Change to the directory of your Xcode project, and Create and Edit your Podfile and add FontAwesome-iOS:
 
 	$ cd /path/to/MyProject
 	$ touch Podfile
@@ -65,7 +65,7 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 * Font Awesome CSS, LESS, and SASS files are licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
 * The Font Awesome pictograms are licensed under the [CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0)
 * Attribution is no longer required in Font Awesome 3.0, but much appreciated:
-	* *"Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"*
+* *"Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"*
 
 # Contact #
 
