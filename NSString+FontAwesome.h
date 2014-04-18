@@ -3,7 +3,7 @@
 //  NSString+FontAwesome.h
 //
 //  Created by Dalton Cherry on 4/24/13.
-//  Copyright 2013 Basement Krew. All rights reserved.
+//  Copyright 2013 Vluxe. All rights reserved.
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //font awesome license:
@@ -14,7 +14,7 @@
 //"Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
 
 //font awesome icon enum - 369 icons in all!
-typedef enum {
+typedef NS_ENUM(NSUInteger, FaIcon) {
     FaGlass = 0xf000,
     FaMusic = 0xf001,
     FaSearch = 0xf002,
@@ -384,8 +384,7 @@ typedef enum {
     FaVimeoSquare = 0xf194,
     FaTry = 0xf195,
     FaPlusSquareO = 0xf196
-} FaIcon;
-
+};
 
 @interface NSString (AwesomeString)
 

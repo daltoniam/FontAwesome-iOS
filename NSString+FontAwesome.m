@@ -3,7 +3,7 @@
 //  NSString+FontAwesome.m
 //
 //  Created by Dalton Cherry on 4/24/13.
-//  Copyright 2013 Basement Krew. All rights reserved.
+//  Copyright 2013 Vluxe. All rights reserved.
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #import "NSString+FontAwesome.h"
