@@ -3,7 +3,8 @@
 //  NSString+FontAwesome.m
 //
 //  Created by Dalton Cherry on 4/24/13.
-//  Copyright 2013 Vluxe. All rights reserved.
+//  Updated by Tony Hensler on 11/05/18
+//  Copyright 2018 Vluxe. All rights reserved.
 //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #import "NSString+FontAwesome.h"

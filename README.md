@@ -72,3 +72,8 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 ### Dalton Cherry ###
 * https://github.com/daltoniam
 * http://twitter.com/daltoniam
+
+### Tony Hensler ###
+* https://github.com/thenslerse
+* https://twitter.com/Tony_Hensler
+* https://henslerse.co.uk
